@@ -1,0 +1,49 @@
+🎬 Media & Entertainment Portal (Python GUI Application)
+A modern Python desktop application built with CustomTkinter for a sleek, dark-themed user interface, utilizing CSV as a lightweight local database for user authentication and media record management.
+
+  🚀 Key Features
+
+1. Secure User Authentication:
+ * Login System: Validates credentials against the local user_data.csv data store.
+ * User Registration: Allows new users to sign up with automatic duplicate username checks.
+
+2. Modern Dashboard & Media Management:
+ * Add media items categorized by type (Video, Music, Games).
+ * Real-time table view using a customized CTkTextbox for organized data display.
+
+3. Smooth UI Transitions:
+ * Includes custom fade-in effects and screen transition handlers for an enhanced user experience.
+
+🛠️ Tech Stack
+
+ * Programming Language: Python 3.11+
+ * GUI Framework: CustomTkinter (customtkinter)
+ * Data Storage: CSV (csv module)
+ * Environment: PyCharm IDE / Virtual Environment (.venv311)
+
+⚙️ Installation & Setup Guide
+
+ * Open the project folder in PyCharm.
+ * Ensure your interpreter is set to Python 3.11+ (e.g., .venv311).
+ * Install dependencies by opening the Terminal in PyCharm (Alt + F12) and running:
+    > pip install customtkinter
+
+Run the Application:
+Execute GUI.py directly through PyCharm or via the terminal:
+
+python GUI.py
+
+📂 Project Structure
+
+PythonProject19/
+│
+├── .venv311/          # Python 3.11 Virtual Environment[cite: 10]
+├── GUI.py             # Main application script (UI + Logic)[cite: 10]
+├── main.py            # Secondary script runner[cite: 10]
+└── user_data.csv      # Automatically generated local database for users and media items
+
+👥 Project Details
+
+Project Type:  Python GUI Development
+Institution: New Era University (3BSIT-6)
+
